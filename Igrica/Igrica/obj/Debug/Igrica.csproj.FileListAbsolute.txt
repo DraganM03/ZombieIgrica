@@ -1,0 +1,10 @@
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\bin\Debug\Igrica.exe.config
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\bin\Debug\Igrica.exe
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\bin\Debug\Igrica.pdb
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.cache
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.exe
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.pdb
+C:\Users\Korisnik\Desktop\Fakultet\Godina3\Baze Podataka\Domaci\ZombieIgrica2\Igrica\Igrica\obj\Debug\Igrica.gameForm.resources
