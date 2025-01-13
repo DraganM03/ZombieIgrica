@@ -18,10 +18,12 @@ namespace Igrica
         public int x;
         public int y;
         public int speed;
-        public int s = 1;
         public float angle;
+        public int s = 1;
+        public int ammo;
+        public int mags;
+        private int gunCap;
         private int health;
-        private int ammo;
         private int xp;
         private int level;
         private int dmg;
@@ -40,6 +42,10 @@ namespace Igrica
             this.level = 1;
             this.dmg = 10;
             this.image = Properties.Resources.playerR;
+
+            this.gunCap = 10;
+            this.ammo = this.gunCap;
+            this.mags = 3; 
         }
 
         public void TakeDamage(int dmg)
@@ -73,19 +79,33 @@ namespace Igrica
             return this.health;
         }
         
-        public int getAmmoCount()
+        public string getAmmoCount()
         {
-            return this.ammo;
+            return this.ammo.ToString() + " / " + this.mags.ToString();
         }
 
         public Bullet Shoot(Form form, float angle)
         {
-            this.ammo -= 1;
-            Bullet b = new Bullet(this.x + this.image.Width / 2f - 20, 
-                                    this.y + this.image.Height/2f + 2, angle, this.s, form); 
-            return b;
+
+            if (ammo > 0)
+            {
+                this.ammo -= 1;
+                Bullet b = new Bullet(this.x + this.image.Width / 2f - 20, 
+                                        this.y + this.image.Height/2f + 2, angle, this.s, form); 
+                return b;
+            }
+            CallResuply();
+            return null;
         }
 
+        public void CallResuply()
+        {
+            if (mags > 0)
+            {
+                this.ammo = this.gunCap;
+                this.mags -= 1;
+            }
+        }
 
     }
 }

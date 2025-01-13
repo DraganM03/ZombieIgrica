@@ -27,8 +27,9 @@ namespace Igrica
             this.MaximizeBox = false;
             this.Size = new Size(960, 600);
             player = new Player(this.Width / 2, this.Height / 2);
+            
         }
-
+        
         private void MainTimerEvent(object sender, EventArgs e)
         {
 
@@ -39,6 +40,8 @@ namespace Igrica
             }
             else if (!gameOver)
             {
+
+                txtAmmo.Text = "Ammo: " + player.getAmmoCount();
                 pbHealth.Value = player.getHealth();
                 // kretanje igraca
                 int dx = 0;
@@ -116,6 +119,12 @@ namespace Igrica
                 //String bulletsStr = "";
                 foreach (Bullet bullet in bullets)
                 {
+                    if(bullet == null)
+                    {
+                        bulletsToDestroy.Add(bullet);
+                        continue;
+                    }
+
                     if (bullet.destroy)
                     {
                         //bullets.Remove(bullet);
