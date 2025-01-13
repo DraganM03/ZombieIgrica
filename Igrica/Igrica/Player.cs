@@ -18,6 +18,7 @@ namespace Igrica
         public int x;
         public int y;
         public int speed;
+        public int s = 1;
         public float angle;
         private int health;
         private int ammo;
@@ -72,14 +73,17 @@ namespace Igrica
             return this.health;
         }
         
-        public int getAmmo()
+        public int getAmmoCount()
         {
             return this.ammo;
         }
 
-        public void Shoot()
+        public Bullet Shoot(Form form, float angle)
         {
             this.ammo -= 1;
+            Bullet b = new Bullet(this.x + this.image.Width / 2f - 20, 
+                                    this.y + this.image.Height/2f + 2, angle, this.s, form); 
+            return b;
         }
 
 

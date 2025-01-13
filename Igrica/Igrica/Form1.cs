@@ -17,10 +17,14 @@ namespace Igrica
         bool goLeft, goRight, goUp, goDown, gameOver;
         int mouseX = 0, mouseY = 0;
         Pen laserPen = new Pen(Color.Red, 2);
-
+        float laserD = 0;
+        List<Bullet> bullets = new List<Bullet>();
+        List<Bullet> bulletsToDestroy = new List<Bullet>();
         public gameForm()
         {
             InitializeComponent();
+            Cursor.Hide();
+            this.MaximizeBox = false;
             this.Size = new Size(960, 600);
             player = new Player(this.Width / 2, this.Height / 2);
         }
@@ -62,16 +66,19 @@ namespace Igrica
                 int newMx = -1 * (mouseX - this.Width / 2 - player.image.Width / 2);
                 int newMy = (mouseY - this.Height / 2 - player.image.Height);
                 double dist = (double)Math.Sqrt((newMx  - newPx)*(newMx  - newPx) + (newMy - newPy) * (newMy - newPy));
-                int s = 1;
-                txtTest.Text = newPx.ToString() + " " + newPy.ToString() + " " + newMx.ToString() + " " + newMy.ToString() + ", " + dist.ToString();
-
+                //txtTest.Text = newPx.ToString() + " " + newPy.ToString() + " " + newMx.ToString() + " " + newMy.ToString() + ", " + dist.ToString();
+                this.laserD = (float)dist;
                 if (newPx != newMx)
                 {
                     if (newMy > newPy) {
-                        s = -1;
+                        player.s = -1;
+                    }
+                    else
+                    {
+                        player.s = 1;
                     }
 
-                    player.angle = s * (float)(180 + Math.Acos((newMx - newPx) / dist) * 180 / Math.PI);
+                    player.angle = player.s * (float)(180 + Math.Acos((newMx - newPx) / dist) * 180 / Math.PI);
                 }
                 else if (newPy != newMy)
                 {
@@ -79,7 +86,7 @@ namespace Igrica
                 }
                 else
                 {
-                    player.angle = (float)-90;
+                    player.angle = (float)270;
                 }
 
                 // stats display
@@ -91,6 +98,7 @@ namespace Igrica
 
         }
 
+        // crtanje
         private void DrawForm(object sender, PaintEventArgs e)
         {
             if(player.image != null)
@@ -98,12 +106,44 @@ namespace Igrica
 
                 float bw2 = player.x + player.image.Width / 2f - 20;    
                 float bh2 = player.y + player.image.Height / 2f + 2;
-                e.Graphics.DrawLine(laserPen , bw2, bh2, mouseX, mouseY);
-                e.Graphics.TranslateTransform(bw2, bh2);
+                //laser
+                float lx = (float)(bw2 + this.laserD * Math.Cos(player.angle * Math.PI / 180));
+                float ly = (float)(bh2 + this.laserD * Math.Sin(player.angle * Math.PI / 180));
+                e.Graphics.DrawLine(laserPen , bw2, bh2, lx, ly);
+                e.Graphics.DrawEllipse(laserPen, lx - 3f, ly - 3f, 6f, 6f);
+
+                //projektili
+                //String bulletsStr = "";
+                foreach (Bullet bullet in bullets)
+                {
+                    if (bullet.destroy)
+                    {
+                        //bullets.Remove(bullet);
+                        bulletsToDestroy.Add(bullet);
+                        continue;
+                    }
+                    e.Graphics.DrawLine(bullet.bulletPen, bullet.x, bullet.y,
+                        (float)(bullet.x + bullet.getSpeed() * Math.Cos(bullet.angle * Math.PI / 180)),
+                        (float)(bullet.y + bullet.getSpeed() * Math.Sin(bullet.angle * Math.PI / 180)));
+                    //bulletsStr += bullet.angle.ToString() + " " + (Math.Cos(bullet.angle)).ToString() + " " + (Math.Sin(bullet.angle)).ToString() + "\n";
+                }
+
+                foreach (Bullet bullet in bulletsToDestroy)
+                {
+                    bullets.Remove(bullet);
+                }
+                bulletsToDestroy.Clear();
+
+
+                //txtTest.Text = bulletsStr;
+
+                //igrac
+                e.Graphics.TranslateTransform(bw2, bh2);                    
                 e.Graphics.RotateTransform(player.angle);
                 e.Graphics.TranslateTransform(-bw2, -bh2);
                 e.Graphics.DrawImage(player.image, player.x, player.y);
                 e.Graphics.ResetTransform();
+
                 //e.Graphics.DrawLine(new Pen(Color.Green, 2) , bw2, bh2, mouseX, bh2);
                 //e.Graphics.DrawLine(new Pen(Color.Blue, 2), bw2, bh2, bw2, mouseY);
             }
@@ -112,7 +152,8 @@ namespace Igrica
         private void PlayerShoot(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left) {
-                player.Shoot();
+                bullets.Add(player.Shoot(this, player.angle));
+                //txtTest.Text = player.angle.ToString();
             }
         }
 

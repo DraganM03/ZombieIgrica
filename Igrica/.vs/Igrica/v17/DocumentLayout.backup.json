@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\igrica\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Form1.cs",
               "RelativeDocumentMoniker": "Igrica\\Form1.cs",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Form1.cs",
               "RelativeDocumentMoniker": "Igrica\\Form1.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Form1.cs",
               "RelativeToolTip": "Igrica\\Form1.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAtwHIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T20:44:49.843Z",
               "IsPinned": true,
@@ -61,16 +61,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Player.cs",
               "RelativeDocumentMoniker": "Igrica\\Player.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Player.cs",
               "RelativeToolTip": "Igrica\\Player.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFQAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T20:47:31.443Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Bullet.cs",
+              "RelativeDocumentMoniker": "Igrica\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Bullet.cs",
+              "RelativeToolTip": "Igrica\\Bullet.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T23:43:22.398Z",
               "EditorCaption": ""
             },
             {
@@ -84,19 +97,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T20:49:41.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Bullet.cs",
-              "RelativeDocumentMoniker": "Igrica\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\Igrica\\Bullet.cs",
-              "RelativeToolTip": "Igrica\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T20:48:36.531Z",
               "EditorCaption": ""
             }
           ]
