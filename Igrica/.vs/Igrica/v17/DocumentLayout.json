@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|c:\\users\\korisnik\\desktop\\fakultet\\godina3\\baze podataka\\domaci\\zombieigrica2\\igrica\\igrica\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|C:\\Users\\Korisnik\\Desktop\\Fakultet\\Godina3\\Baze Podataka\\Domaci\\ZombieIgrica2\\Igrica\\igrica\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139F7208-4EC6-46E6-977B-A354BB9789F1}|Igrica\\Igrica.csproj|solutionrelative:igrica\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "ViewState": "AgIAADsAAAAAAAAAAAAgwFQAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T20:47:31.443Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Igrica\\Bullet.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAAwDwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T23:43:22.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T23:43:22.398Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Igrica\\Zombie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T20:49:41.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T20:49:41.916Z"
             }
           ]
         }
