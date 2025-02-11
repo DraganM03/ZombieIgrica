@@ -22,11 +22,12 @@ namespace Igrica
         public int s = 1;
         public int ammo;
         public int mags;
-        private int gunCap;
-        private int health;
-        private int xp;
-        private int level;
-        private int dmg;
+        public int gunCap;
+        public int health;
+        public int xp;
+        public int level;
+        public int dmg;
+        public int kills;
 
         //assets
         public Image image;
@@ -42,7 +43,7 @@ namespace Igrica
             this.level = 1;
             this.dmg = 10;
             this.image = Properties.Resources.playerR;
-
+            this.kills = 0;
             this.gunCap = 10;
             this.ammo = this.gunCap;
             this.mags = 3; 
@@ -71,6 +72,11 @@ namespace Igrica
 
         public bool isAlive()
         {
+            if (this.health <= 0)
+            {
+
+                this.image = Properties.Resources.dead_player;
+            }
             return this.health > 0;
         }
 
@@ -81,7 +87,18 @@ namespace Igrica
         
         public string getAmmoCount()
         {
-            return this.ammo.ToString() + " / " + this.mags.ToString();
+            if(this.ammo > 0)
+            {
+                return "Ammo: " + this.ammo.ToString() + " / " + this.mags.ToString();
+            }
+            else if (this.mags > 0)
+            {
+                return "Reload (R)";
+            }
+            else
+            {
+                return "Out of mags";
+            }
         }
 
         public Bullet Shoot(Form form, float angle)
@@ -94,11 +111,10 @@ namespace Igrica
                                         this.y + this.image.Height/2f + 2, angle, this.s, form); 
                 return b;
             }
-            CallResuply();
             return null;
         }
 
-        public void CallResuply()
+        public void reload()
         {
             if (mags > 0)
             {
@@ -106,6 +122,17 @@ namespace Igrica
                 this.mags -= 1;
             }
         }
+
+        public int numOfZombies()
+        {
+            return (this.level / 5 + 1) * 5;
+        }
+
+        public int dealDmg()
+        {
+            return this.dmg;
+        }
+
 
     }
 }

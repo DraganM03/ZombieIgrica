@@ -43,7 +43,7 @@
             this.txtStats.AutoSize = true;
             this.txtStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtStats.ForeColor = System.Drawing.Color.White;
-            this.txtStats.Location = new System.Drawing.Point(37, 22);
+            this.txtStats.Location = new System.Drawing.Point(128, 71);
             this.txtStats.Name = "txtStats";
             this.txtStats.Size = new System.Drawing.Size(40, 16);
             this.txtStats.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.txtAmmo.AutoSize = true;
             this.txtAmmo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtAmmo.ForeColor = System.Drawing.Color.White;
-            this.txtAmmo.Location = new System.Drawing.Point(254, 22);
+            this.txtAmmo.Location = new System.Drawing.Point(40, 22);
             this.txtAmmo.Name = "txtAmmo";
             this.txtAmmo.Size = new System.Drawing.Size(49, 16);
             this.txtAmmo.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.txtKills.AutoSize = true;
             this.txtKills.ForeColor = System.Drawing.Color.White;
-            this.txtKills.Location = new System.Drawing.Point(478, 22);
+            this.txtKills.Location = new System.Drawing.Point(205, 22);
             this.txtKills.Name = "txtKills";
             this.txtKills.Size = new System.Drawing.Size(31, 16);
             this.txtKills.TabIndex = 2;
@@ -81,7 +81,7 @@
             this.txtHealth.AutoSize = true;
             this.txtHealth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtHealth.ForeColor = System.Drawing.Color.White;
-            this.txtHealth.Location = new System.Drawing.Point(630, 22);
+            this.txtHealth.Location = new System.Drawing.Point(529, 22);
             this.txtHealth.Name = "txtHealth";
             this.txtHealth.Size = new System.Drawing.Size(49, 16);
             this.txtHealth.TabIndex = 4;
@@ -89,7 +89,7 @@
             // 
             // pbHealth
             // 
-            this.pbHealth.Location = new System.Drawing.Point(685, 22);
+            this.pbHealth.Location = new System.Drawing.Point(584, 22);
             this.pbHealth.Name = "pbHealth";
             this.pbHealth.Size = new System.Drawing.Size(226, 16);
             this.pbHealth.TabIndex = 5;
@@ -110,7 +110,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
-            this.ClientSize = new System.Drawing.Size(942, 553);
+            this.BackgroundImage = global::Igrica.Properties.Resources.Mapa;
+            this.ClientSize = new System.Drawing.Size(803, 594);
             this.Controls.Add(this.txtTest);
             this.Controls.Add(this.pbHealth);
             this.Controls.Add(this.txtHealth);

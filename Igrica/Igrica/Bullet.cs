@@ -17,7 +17,10 @@ namespace Igrica
         public float y;
         public int s;
         public float angle;
-        public bool destroy;
+
+        public bool canDealDmg;
+        public float dx;
+        public float dy;
 
         private int speed = 20; //br ms za timer i brzina kretanja projektila
         private int maxW = 0;
@@ -38,7 +41,10 @@ namespace Igrica
             this.y = y;
             this.s = s;
             this.angle = angle;
-            this.destroy = false;
+            this.canDealDmg = true;
+
+            this.dx = (float)(this.speed * Math.Cos(this.angle * Math.PI / 180));
+            this.dy = (float)( this.speed * Math.Sin(this.angle * Math.PI / 180));
 
             this.bulletTimer.Interval = speed;
             this.bulletTimer.Tick += new EventHandler(BulletTimerEvent); // funkcija koju radi svakih {speed} ms
@@ -58,7 +64,7 @@ namespace Igrica
                 this.bulletTimer.Stop();
                 this.bulletTimer.Dispose();  // uklanja timer
                 this.bulletTimer = null;
-                this.destroy = true;
+                this.canDealDmg = false;
 
             }
         }
